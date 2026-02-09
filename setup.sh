@@ -64,7 +64,6 @@ uv pip install -U "mineru[all]" -i https://mirrors.aliyun.com/pypi/simple
 CONFIG_FILE="$HOME/magic-pdf.json" 
 if [ ! -f "$CONFIG_FILE" ]; then
     echo -e "${BLUE}Initializing default magic-pdf.json at ${CONFIG_FILE}...${NC}"
-    # 填入基础配置，防止报错
     echo '{"device-mode":"cpu", "models-dir":"/tmp/models"}' > "$CONFIG_FILE"
     echo -e "${YELLOW}IMPORTANT: Update 'models-dir' in ~/magic-pdf.json with your actual model path.${NC}"
 fi

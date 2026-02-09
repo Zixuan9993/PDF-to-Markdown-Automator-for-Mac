@@ -1,6 +1,6 @@
 -- Set basic variables
 -- IMPORTANT: Users must update this path to point to their local OCR_pdf.sh file
-property shellScriptPath : "/Users/zixuan/Desktop/test/OCR_pdf.sh"
+property shellScriptPath : ".../OCR_pdf.sh"
 
 -- Main execution block when the script is run directly (e.g., double-clicked)
 on run
