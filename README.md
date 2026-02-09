@@ -25,12 +25,12 @@ This project targets the "last mile" of office productivity. It enables users to
 1. **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/smart-pdf-ocr.git](https://github.com/your-username/smart-pdf-ocr.git)
-    cd smart-pdf-ocr
+    git clone https://github.com/Zixuan9993/PDF-to-Markdown-Automator-for-Mac.git
+    cd PDF-to-Markdown-Automator-for-Mac
     ```
 
 2. **Run the setup script**
-    This will create the `MinerU` Conda environment and install all necessary dependencies (magic-pdf, libmagic, etc.).
+    This will create the `MinerU` Conda environment and install all necessary dependencies (libmagic, etc.).
 
     ```bash
     chmod +x setup.sh
@@ -38,7 +38,7 @@ This project targets the "last mile" of office productivity. It enables users to
     ```
 
 3. **Configure the AppleScript**
-    1. Open OCR_Workflow.scpt using Script Editor (found in Applications/Utilities).
+    1. Open main.scpt using Script Editor (found in Applications/Utilities).
 
     2. Locate the first line: property shellScriptPath : "..."
 
@@ -89,8 +89,8 @@ This project integrates with **MinerU** as a core engine. Please be aware of the
 1. **克隆仓库：**
 
     ```bash
-    git clone https://github.com/your-username/smart-pdf-ocr.git
-    cd smart-pdf-ocr
+    git clone https://github.com/Zixuan9993/PDF-to-Markdown-Automator-for-Mac.git
+    cd PDF-to-Markdown-Automator-for-Mac
     ```
 
 2. **运行环境配置脚本**
@@ -104,7 +104,7 @@ This project integrates with **MinerU** as a core engine. Please be aware of the
 
 3. **配置 AppleScript**
 
-    1. 使用 Script Editor（位于 Applications/Utilities）打开 `OCR_Workflow.scpt`。
+    1. 使用 Script Editor（位于 Applications/Utilities）打开 `main.scpt`。
 
     2. 找到第一行：
 
